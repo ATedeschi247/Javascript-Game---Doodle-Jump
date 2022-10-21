@@ -1,0 +1,29 @@
+.grid {
+  width: 400px;
+  height: 600px;
+  background-image: url(https://images.alphacoders.com/106/1062064.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  font-size: 200px;
+  text-align: center;
+  color: #cc0000;
+  font-family: 'Aldrich';
+}
+
+.doodler {
+  width: 60px;
+  height: 85px;
+  background-image: url(https://blog.collegeboard.org/blog/styles/cb_post_square_thumbnail/public/2020-03/College-Board-Logo-Icon.jpg?h=48cc5edc&itok=U_HNbelF);
+  position: absolute;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.platform {
+  width: 1px;
+  height: 15px;
+  background-color: green;
+  position: absolute;
+}
