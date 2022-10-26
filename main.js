@@ -174,4 +174,6 @@ function start() {
   }
 }
 // attach to button
-start();
+if (canStart) {
+  start();
+}
