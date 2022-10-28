@@ -1,5 +1,9 @@
+body {
+  display: flex;
+}
 /* doodle jump */
 .grid {
+  display: none;
   width: 400px;
   height: 600px;
   background-image: url(https://images.alphacoders.com/106/1062064.jpg);
@@ -28,29 +32,56 @@
   background-color: green;
   position: absolute;
 }
+
+
 /* flappy bird */
 .game-container {
+  display: none;
   width: 500px;
   height: 730px;
   position: absolute;
+  left: 60px;
 }
-
+.borderLeft {
+  width: 60px;
+  height: 790px;
+  position: absolute;
+  background-color: white;
+  z-index: +1;
+}
 .sky {
+  display: none;
   background-color: blue;
   width: 500px;
   height: 580px;
   position: absolute;
 }
 .ground {
+  display: none;
   background-color: brown;
   width: 500px;
-  height: 150px;
+  height: 180px;
   position: absolute;
-  top: 580px;
+  top: 550px;
+  z-index: +1; 
 }
 .bird {
+  display: none;
   background-color: yellow;
   position: absolute;
   width: 60px;
   height: 45px;
+}
+.obstacle {
+  background-image: green;
+  width: 60px;
+  height: 300px;
+  position: absolute;
+}
+.topObstacle {
+  background-color: green;
+  transform: rotate(180deg);
+  width: 60px;
+  height: 300px;
+  position: absolute;
 }
